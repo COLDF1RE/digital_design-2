@@ -69,10 +69,13 @@
     margin-bottom: 30px;
     height: 350px;
   }
-  .slider__img-content {
+  .slider__img-content
+  .slider__img-content
+   {
     display: flex;
     flex-direction: column;
     padding-top: 254px;
+    border: 5px solid red;
   }
 
   .slider__img-title {

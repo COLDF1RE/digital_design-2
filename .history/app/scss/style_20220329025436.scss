@@ -80,7 +80,9 @@
   }
 }
 
+
 .slider {
+  
   &__inner {
     margin-top: 45px;
   }
@@ -150,6 +152,7 @@
   }
 }
 
+
 .subscribe {
   &__inner {
     display: flex;
@@ -197,6 +200,7 @@
     cursor: pointer;
   }
 }
+
 
 .blog {
   &__inner {
@@ -273,6 +277,7 @@
     font-size: 12px;
     line-height: 12px;
     color: #34ACA7;
+
   }
   &__copyright {
     letter-spacing: -0.02em;
