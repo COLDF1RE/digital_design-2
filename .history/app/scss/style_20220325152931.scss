@@ -1,0 +1,71 @@
+@import 'vars';
+@import 'fonts';
+@import 'reset';
+@import 'libs';
+@import 'global';
+
+.wrapper {
+}
+.header {
+}
+.main {
+  display: ;
+  &__content{}
+}
+.aside {
+  &__inner {}
+}
+.container {
+}
+.logo {
+}
+.nav {
+  &__list {}
+  &__list-item {}
+  &__list-link {}
+  &__list-icon {}
+  &__list-text {}
+}
+.info {
+  &__title {}
+  &__btn {}
+  &__btn-icon {}
+  &__btn-text {}
+  &__text {}
+}
+.banner {
+}
+.subscribe {
+  &__inner {}
+  &__content {}
+  &__content-icon {}
+  &__content-text {}
+  &__form {}
+  &__form-input {}
+  &__form-btn {}
+}
+.blog {
+  &__inner {}
+}
+.card {
+  &__img-link {}
+  &__img {}
+  &__title-link {}
+  &__title {}
+  &__text {}
+  &__links {}
+  &__date {}
+  &__read {}
+}
+.footer {
+  &__inner {}
+  &__content {}
+  &__list {}
+  &__list-item {}
+  &__list-link {}
+  &__copyright {}
+  &__social {}
+  &__social-item {}
+  &__social-img {}
+}
+

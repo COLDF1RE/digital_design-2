@@ -1,0 +1,134 @@
+@media (max-width: 1176px) {
+  .card {
+    max-width: 160px;
+  }
+  .card__text{
+    -webkit-line-clamp: 7;
+  }
+}
+
+@media (max-width: 992px) {
+  .main__inner {
+    flex-direction: column;
+  }
+  .aside__inner{
+    display: flex;
+    align-items: center;
+    width: auto;
+    margin: 45px 0 35px
+  }
+  .aside__logo {
+    margin: 0;
+  }
+  .nav {
+    width: 100%;
+    padding: 0 40px;
+  }
+  .nav__list {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav__list-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+  .nav__list-icon {
+    margin: 0;
+  }
+  .info{
+    display: none;
+  }
+  .slider__inner { 
+    margin: 0;
+  }
+  .slider__items {
+    height: 35px;
+  }
+  .slider__item-title {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .slider__item-text {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .aside__inner {
+    margin: 20px 0 15px;
+  }
+  .nav {
+    padding: 0 20px;
+  }
+  .nav__list-icon {
+    display: none;
+  }
+  .slider__img {
+    margin-bottom: 30px;
+  }
+  .slider__img-title {
+    margin-top: 354px;
+    display: iline;
+  }
+  .slider__items {
+    display: none;
+  }
+  .subscribe__inner {
+    flex-direction: column;
+  }
+  .subscribe__content {
+    margin-bottom: 15px;
+  }
+  .subscribe__form-input {
+    max-width: 100%;
+    width: 100%;
+    margin-left: 15px
+  }
+  .blog__inner {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .card {
+    max-width: 270px;
+  }
+  .card__text{
+    -webkit-line-clamp: 4;
+  }
+  .card__img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 620px) {
+  .nav {
+    padding: 10px;
+  }
+  .card {
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 520px) {
+  .aside__logo {
+    order: 2;
+  }
+  .aside__inner {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+
+}
+
+@media (max-width: 380px) {
+  .footer__inner {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__copyright {
+    margin-bottom: 10px;
+  }
+}

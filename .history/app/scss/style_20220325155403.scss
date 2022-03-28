@@ -1,0 +1,107 @@
+@import 'vars';
+@import 'fonts';
+@import 'reset';
+@import 'libs';
+@import 'global';
+
+
+.main {
+  &__inner {
+    display: flex;
+  }
+  &__content{}
+}
+.aside {
+  &__inner {
+    max-width: 140px;
+  }
+}
+
+.logo {
+}
+
+.nav {
+  &__list {
+  }
+  &__list-item {
+
+  }
+  &__list-link {
+    display: flex;
+    margin-bottom: 30px;
+  }
+  &__list-icon {
+    max-width: 30px;
+    margin-right: 12px;
+  }
+  &__list-text {
+    display: flex;
+    align-items: center;
+    font-style: italic;
+    lh
+  }
+}
+.info {
+  &__title {}
+  &__btn {
+    display: flex;
+  }
+  &__btn-icon {}
+  &__btn-text {}
+  &__text {}
+}
+.banner {
+}
+.subscribe {
+  &__inner {
+    display: flex;
+  }
+  &__content {
+    display: flex;
+  }
+  &__content-icon {}
+  &__content-text {}
+  &__form {
+    display: flex;
+  }
+  &__form-input {}
+  &__form-btn {}
+}
+.blog {
+  &__inner {
+    display: flex;
+  }
+}
+.card {
+  &__img-link {}
+  &__img {}
+  &__title-link {}
+  &__title {}
+  &__text {}
+  &__links {
+    display: flex;
+  }
+  &__date {}
+  &__read {}
+}
+.footer {
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__content {
+    
+  }
+  &__list {
+    display: flex;
+  }
+  &__list-item {}
+  &__list-link {}
+  &__copyright {}
+  &__social {
+    display: flex;
+  }
+  &__social-item {}
+  &__social-img {}
+}
+
