@@ -92,6 +92,7 @@
     height: 450px;
   }
   &__img-content {
+    // padding-top: 300px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -99,7 +100,9 @@
     height: 100%;
     
   }
-  &__img-box {}
+  &__img-box {
+    
+  }
   &__img-title {
     font-size: 22px;
     font-style: italic;

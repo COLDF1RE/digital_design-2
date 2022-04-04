@@ -70,14 +70,18 @@
     height: 350px;
   }
   .slider__img-content {
-    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    // padding-top: 254px;
   }
+
   .slider__img-title {
     opacity: 0.6;
+    // display: block;
   }
   .slider__img-subtitle {
-
-    margin-bottom: 0;
+    // display: block;
+    
   }
   .slider__items {
     display: none;

@@ -92,15 +92,14 @@
     height: 450px;
   }
   &__img-content {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: end;
-    height: 100%;
+    // padding-top: 300px;
     
   }
-  &__img-box {}
+  &__img-box {
+
+  }
   &__img-title {
+    display: inline-block;
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
@@ -110,13 +109,13 @@
     background-color: #fff;
   }
   &__img-subtitle {
+    display: inline-block;
     color: #fff;
     font-style: italic;
     line-height: 14px;
     font-weight: 400;
     background-color: #000;
     padding: 15px 25px;
-    margin-bottom: 70px;
   }
   &__items {
     display: flex;
