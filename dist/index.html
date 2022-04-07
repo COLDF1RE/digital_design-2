@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#ffffff">
   <link rel="icon" href="favicon.svg">
-  <link rel="mask-icon" href="mask-icon.svg" color="#000000">
-  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+<!--  <link rel="mask-icon" href="mask-icon.svg" color="#000000">-->
+<!--  <link rel="apple-touch-icon" href="apple-touch-icon.png">-->
   <link rel="manifest" href="manifest.json">
   <title>Food Sense</title>
   <link rel="stylesheet" href="css/style.min.css">
@@ -182,30 +182,60 @@
 
             <section class="slider">
               <div class="slider__inner">
-                <div class="slider__img">
-                  <div class="slider__img-content">
-                      <h2 class="slider__img-title">Share your Food Sense</h2>
-                      <p class="slider__img-subtitle">Submit your favorite recipes, become a contributor, or get
-                        interviewed.
+
+                <div class="slider__item" style="background-image: url('../images/content/slider-1.jpg');">
+                  <div class="slider__item-content">
+                      <h2 class="slider__item-title">Food and Chill</h2>
+                      <p class="slider__item-subtitle">Get amazing lorem text right now... or next slide. Lorem ipsum dolor sit amet, consectetur
                       </p>
                   </div>
                 </div>
-                <div class="slider__items">
-                  <div class="slider__item">
-                    <h3 class="slider__item-title">Taste makers</h3>
-                    <p class="slider__item-text">Feast your eyes & get recipes!</p>
+
+                <div class="slider__item" style="background-image: url('../images/content/slider-2.jpg');">
+                  <div class="slider__item-content">
+                      <h2 class="slider__item-title">Lorem ipsum dolor</h2>
+                      <p class="slider__item-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, dolore?
+                      </p>
                   </div>
-                  <div class="slider__item">
-                    <h3 class="slider__item-title">Blog</h3>
-                    <p class="slider__item-text">News, how-tos, stories, and more</p>
+                </div>
+
+                <div class="slider__item" style="background-image: url('../images/content/slider-3.jpg');">
+                  <div class="slider__item-content">
+                      <h2 class="slider__item-title">Is your mount hungry?</h2>
+                      <p class="slider__item-subtitle">Find out what professionals feed their pets. Lorem ipsum dolor sit amet, consectetur.
+                      </p>
                   </div>
-                  <div class="slider__item">
-                    <h3 class="slider__item-title">The A-List</h3>
-                    <p class="slider__item-text">Handpicked, absolute favorites</p>
+                </div>
+
+                <div class="slider__item" style="background-image: url('../images/content/slider-4.jpg');">
+                  <div class="slider__item-content">
+                      <h2 class="slider__item-title">Share your Food Sense</h2>
+                      <p class="slider__item-subtitle">Submit your favorite recipes, become a contributor, or get interviewed.
+                      </p>
                   </div>
-                  <div class="slider__item slider__item--active">
-                    <h3 class="slider__item-title">Contribute</h3>
-                    <p class="slider__item-text">We want to hear from you!</p>
+                </div>
+
+                <a class="slider__prev" onclick="prevSlide()">&#10094;</a>
+                <a class="slider__next" onclick="nextSlide()">&#10095;</a>
+
+
+
+                <div class="slider-nav">
+                  <div class="slider-nav__item" onclick="currentSlide(1)">
+                    <h3 class="slider-nav__item-title">Taste makers</h3>
+                    <p class="slider-nav__item-text">Feast your eyes & get recipes!</p>
+                  </div>
+                  <div class="slider-nav__item" onclick="currentSlide(2)">
+                    <h3 class="slider-nav__item-title">Blog</h3>
+                    <p class="slider-nav__item-text">News, how-tos, stories, and more</p>
+                  </div>
+                  <div class="slider-nav__item" onclick="currentSlide(3)">
+                    <h3 class="slider-nav__item-title">The A-List</h3>
+                    <p class="slider-nav__item-text">Handpicked, absolute favorites</p>
+                  </div>
+                  <div class="slider-nav__item" onclick="currentSlide(4)">
+                    <h3 class="slider-nav__item-title">Contribute</h3>
+                    <p class="slider-nav__item-text">We want to hear from you!</p>
                   </div>
                 </div>
               </div>
